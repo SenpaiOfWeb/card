@@ -1,0 +1,115 @@
+@import "variable";
+@import url("https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap");
+
+body{
+    margin: 0%;
+    padding: 0%;
+    box-sizing: border-box;
+    font-family: $fontfamily;
+    color: $Darkblue;
+    background-color: $Paleblue;
+    background-image: url(./images/pattern-background-desktop.svg);
+    background-repeat: no-repeat;
+    background-size: 1600px;
+    align-items: center;
+    align-content: center;
+    align-self: center;
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    padding: 50px 0%;
+
+
+    .cand-amount-section{
+        border-radius: 20px;
+        background-color: white;
+        box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+
+        .header-card-section{
+            img{
+                border-top-right-radius: 20px;
+                border-top-left-radius: 20px;
+                padding: 0px;
+                width: max-content;
+            }
+        }
+
+        .wrapper-section-padding {
+            padding: 26px 50px;
+
+
+            .middle-card-section{
+    
+                .upper-middle-section{
+                    h1{
+                        margin: 15px;
+                        font-weight: $weight3;
+                    }
+    
+                    p{
+                        font-size: 16px;
+                        color: $Desaturatedblue;
+                        margin: 5px;
+                    }
+                }
+    
+                .lower-middle-section{
+                    display: flex;
+                    align-items: center;
+                    background-color: $Verypaleblue;
+                    padding: 15px 21px;
+                    border-radius: 18px;
+    
+                    .lmsection1{
+                        margin-right: 18px;
+                    }
+    
+                    .lmsection2{
+                        margin-right: auto;
+    
+                        .boldpara{
+                            font-weight: $weight3;
+                            color: $Darkblue;
+                        }
+    
+                        p{
+                            margin: 4px;
+                            color: $Desaturatedblue;
+                        }
+                    }
+
+                    .lmsection3{
+                        font-weight: $weight2;
+                    }
+                }
+            }
+
+            .lower-card-section{
+
+                p{
+                    font-weight: $weight2;
+                    cursor: pointer;
+                }
+
+                .higher-up-colored{
+                    background-color: $Brightblue;
+                    padding: 20px;
+                    color: white;
+                    border: 0.5px solid $Darkblue;
+                    border-radius: 13px;
+                    box-shadow: hsla(245, 75%, 52%, 0.459) 0px 20px 25px -5px, hsla(245, 75%, 52%, 0.5) 0px 10px 10px -5px;
+                    transition: 0.6s;
+                    cursor: pointer;
+                }
+
+                .higher-up-colored:hover{
+                    background-color: hsl(245, 100%, 72%);
+                    transition: 0.6s;
+                }
+            }
+        }
+
+    }
+
+
+}
