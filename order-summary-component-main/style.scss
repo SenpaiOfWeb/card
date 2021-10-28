@@ -11,13 +11,18 @@ body{
     background-image: url(./images/pattern-background-desktop.svg);
     background-repeat: no-repeat;
     background-size: 1600px;
-    align-items: center;
-    align-content: center;
-    align-self: center;
     display: flex;
     flex-direction: column;
     text-align: center;
     padding: 50px 0%;
+    display: flex;
+    position: absolute;
+    align-items: center;
+    align-content: center;
+    justify-content: center;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 
 
     .cand-amount-section{
